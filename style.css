@@ -63,7 +63,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: linear-gradient(90deg, beige, grey);
   border: 1px solid var(--primary-color);
   transition: transform 1000ms;
 }
