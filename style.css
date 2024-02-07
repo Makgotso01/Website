@@ -56,12 +56,14 @@ p {
 
 .primary-link:hover {
   color: white;
+  transform: translateY(-3px);
 }
 
 .button .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+  transform: translateY(-3px);
   text-transform: capitalize;
   background: linear-gradient(90deg, beige, grey);
   border: 1px solid var(grey);
