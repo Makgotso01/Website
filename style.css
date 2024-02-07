@@ -2,7 +2,6 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  transition: transform 1000ms;
 }
 
 body {
@@ -59,12 +58,12 @@ p {
   color: white;
 }
 
-.secondary-link {
+.button .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
+  background: var(--primary-color);
   border: 1px solid var(--primary-color);
   transition: transform 1000ms;
 }
@@ -169,7 +168,6 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
   transition: transform 1000ms;
-  border: 0;
 }
 
 .primary-link:hover {
